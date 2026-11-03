@@ -316,8 +316,3 @@ Repeat only for environments you intentionally want to remove.
 
 Before production use, consider private access or Azure Bastion, Just-in-Time VM access, Azure Backup, monitoring and alerting, patch management, disk encryption, availability architecture, policy enforcement, private networking, and cost controls. Each running VM and each public IP can incur charges. A ten-VM DEV deployment can therefore cost materially more than the original single-VM deployment. The current `Allow-All-Inbound` NSG rule exposes every VM in the shared subnet and is deliberately insecure; replace it with least-privilege rules before production use.
 
-## Official references
-
-- [Bicep file structure and supported decorators](https://learn.microsoft.com/azure/azure-resource-manager/bicep/file)
-- [Create and use Bicep parameter files](https://learn.microsoft.com/azure/azure-resource-manager/bicep/parameter-files)
-- [Deploy Bicep files with Azure CLI](https://learn.microsoft.com/azure/azure-resource-manager/bicep/deploy-cli)
